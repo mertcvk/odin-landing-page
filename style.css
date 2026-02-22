@@ -116,3 +116,29 @@ ul {
     justify-content: center;
     gap: 50px;
 }
+
+.third{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    width: 800px;
+    font-style: italic;
+    margin-top: 100px;
+}
+
+.signature {
+    font-size: 25px;
+    font-weight: 900;
+    text-align: right;
+    margin-bottom: 100px;
+}
