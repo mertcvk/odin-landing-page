@@ -107,7 +107,7 @@ ul {
 .subtext {
     width: 150px;
     font-size: 15px;
-    color: #1F2937;
+    color: rgb(142, 142, 142);
     margin-top: 30px;
     margin-bottom: 50px;
 }
@@ -141,4 +141,58 @@ ul {
     font-weight: 900;
     text-align: right;
     margin-bottom: 100px;
+}
+
+.fourth {
+    margin-top: 150px;
+    background-color: #3882F6;
+    color: white;
+    width: 800px;
+    height: 125px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.calltext{
+    color: rgb(198, 198, 198);
+}
+
+.buttontwo{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    border: 3px solid white;
+    padding: 10px 24px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: rgb(198, 198, 198);
+    text-align: center;
+    height: 100px;
+    padding: 50px;
+    font-size: 18px;
 }
